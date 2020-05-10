@@ -39,7 +39,7 @@ lpsolve_bin
 
 The directories inside `lpsolve_bin/lib` contain the `.so` libraries for each platforms.   
 
-First, build a ndk project in **AS**.  
+First, **build a ndk project** in **AS**.  
 
 The file structure in directory `app` correspond to the real structure in ndk project of Android Studio. Then:
 
