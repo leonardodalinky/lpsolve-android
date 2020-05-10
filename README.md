@@ -52,20 +52,20 @@ android{
 	defaultConfig{
 		...
 		# Here define the parameters which control the cmake
-        externalNativeBuild {
-            cmake {
-                cFlags ""
-                cppFlags ""
-            }
-        }
+        	externalNativeBuild {
+            		cmake {
+                		cFlags ""
+                		cppFlags ""
+            		}
+        	}
 	}
 	...
 	# Here is the relative path of the CMakeList.txt
-    externalNativeBuild {
-        cmake {
-            path "src/main/cpp/CMakeLists.txt"
-        }
-    }
+    	externalNativeBuild {
+        	cmake  {
+			path "src/main/cpp/CMakeLists.txt"
+       		}
+    	}
 }
 ```
 
