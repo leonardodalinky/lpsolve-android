@@ -28,6 +28,7 @@ app
         - CMakeLists.txt
         - ...More
       - java
+        - lpsolve
         - ...More
 lpsolve_bin
   - lib
